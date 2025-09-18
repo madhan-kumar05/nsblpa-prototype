@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ownership - NSBLPA Prototype</title>
+    <link rel="stylesheet" href="./assets/style/interFont.css">
+    <script src="./assets/script/tailwindcss.js"></script>
+    <link rel="stylesheet" href="./assets/style/styles.css">
+</head>
+<body class="bg-gray-100">
+
+    <header class="bg-blue-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html">
+                <img src="./assets/images/logo.svg" alt="NSBLPA Logo" class="h-12">
+            </a>
+            <nav class="hidden md:flex space-x-4">
+                <a href="index.html" class="hover:text-gray-300">Home</a>
+                <a href="ownership.html" class="hover:text-gray-300">Ownership</a>
+                <a href="teams.html" class="hover:text-gray-300">Teams</a>
+                <a href="apps.html" class="hover:text-gray-300">Apps</a>
+                <a href="contact.html" class="hover:text-gray-300">Contact</a>
+            </nav>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-white focus:outline-none" aria-controls="mobile-menu" aria-expanded="false">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="index.html" class="block py-2 px-4 text-sm hover:bg-blue-700">Home</a>
+            <a href="ownership.html" class="block py-2 px-4 text-sm hover:bg-blue-700">Ownership</a>
+            <a href="teams.html" class="block py-2 px-4 text-sm hover:bg-blue-700">Teams</a>
+            <a href="apps.html" class="block py-2 px-4 text-sm hover:bg-blue-700">Apps</a>
+            <a href="contact.html" class="block py-2 px-4 text-sm hover:bg-blue-700">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="relative bg-cover bg-center h-[300px]" style="background-image: url('./assets/images/banner/ownership.png')">
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+            <div class="relative container mx-auto h-full flex flex-col justify-center items-center text-center text-white p-4">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">NSBLPA Ownership</h1>
+                <p class="text-lg md:text-2xl">Invest in the future of sales and business leadership.</p>
+            </div>
+        </div>
+
+        <div class="container mx-auto p-8">
+            <h2 class="text-3xl font-bold mb-6 text-center">Become a Part of Something Bigger</h2>
+            <p class="text-center text-gray-700 mb-12 max-w-3xl mx-auto">
+                NSBLPA ownership offers a unique opportunity to shape the landscape of professional sales and business leadership.
+                Join an exclusive group of visionaries dedicated to fostering growth, innovation, and excellence within the industry.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <div class="card p-6 text-center">
+                    <h3 class="text-2xl font-bold mb-2">Strategic Influence</h3>
+                    <p class="text-gray-600">Directly contribute to the league's direction and strategic initiatives.</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <h3 class="text-2xl font-bold mb-2">Exclusive Networking</h3>
+                    <p class="text-gray-600">Connect with top-tier professionals and industry leaders.</p>
+                </div>
+                <div class="card p-6 text-center">
+                    <h3 class="text-2xl font-bold mb-2">Brand Visibility</h3>
+                    <p class="text-gray-600">Elevate your brand through association with a premier professional organization.</p>
+                </div>
+            </div>
+
+            <h2 class="text-3xl font-bold mb-6 text-center">Ownership Tiers</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div class="card p-6">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-800">Platinum Tier</h3>
+                    <p class="text-gray-700 mb-4">
+                        The highest level of ownership, offering unparalleled influence and benefits.
+                        Includes voting rights on major league decisions, priority access to all events,
+                        and premium branding opportunities.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Voting rights on key league matters</li>
+                        <li>Priority seating at all NSBLPA events</li>
+                        <li>Exclusive annual owner's retreat</li>
+                        <li>Premium logo placement on all marketing materials</li>
+                    </ul>
+                </div>
+                <div class="card p-6">
+                    <h3 class="text-2xl font-bold mb-2 text-blue-600">Gold Tier</h3>
+                    <p class="text-gray-700 mb-4">
+                        Significant involvement with a comprehensive suite of benefits designed for active participants.
+                        Includes early access to events and enhanced networking opportunities.
+                    </p>
+                    <ul class="list-disc list-inside text-gray-600">
+                        <li>Early access to NSBLPA conferences and workshops</li>
+                        <li>Dedicated networking sessions with industry leaders</li>
+                        <li>Recognition in annual reports and digital platforms</li>
+                        <li>Discounted rates on all NSBLPA services</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="text-center mb-12">
+                <a href="contact.html" class="bg-blue-800 text-white px-8 py-3 rounded-full font-bold hover:bg-blue-700 transition duration-300 ease-in-out">Inquire About Ownership</a>
+            </div>
+
+            <h2 class="text-3xl font-bold mb-6 text-center">Meet Our Owners</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="card p-4 text-center">
+                    <img src="./assets/images/jane-smith.png" alt="Jane Smith" class="rounded-full h-24 w-24 mx-auto mb-2 object-cover">
+                    <h4 class="font-bold">Jane Smith</h4>
+                    <p class="text-gray-600">Owner, New York Profit Pursuers</p>
+                    <p class="text-sm text-gray-500 mt-1">Visionary leader with a focus on market expansion.</p>
+                </div>
+                <div class="card p-4 text-center">
+                    <img src="./assets/images/mary-williams.png" alt="Mary Williams" class="rounded-full h-24 w-24 mx-auto mb-2 object-cover">
+                    <h4 class="font-bold">Mary Williams</h4>
+                    <p class="text-gray-600">Owner, Denver Deal Dynamos</p>
+                    <p class="text-sm text-gray-500 mt-1">Expert in high-stakes negotiations and deal-making.</p>
+                </div>
+                <div class="card p-4 text-center">
+                    <img src="./assets/images/david-brown.png" alt="David Brown" class="rounded-full h-24 w-24 mx-auto mb-2 object-cover">
+                    <h4 class="font-bold">David Brown</h4>
+                    <p class="text-gray-600">Owner, Chicago Sales Sharks</p>
+                    <p class="text-sm text-gray-500 mt-1">Aggressive market strategist and sales leader.</p>
+                </div>
+                <div class="card p-4 text-center">
+                    <img src="./assets/images/susan-davis.png" alt="Susan Davis" class="rounded-full h-24 w-24 mx-auto mb-2 object-cover">
+                    <h4 class="font-bold">Susan Davis</h4>
+                    <p class="text-gray-600">Owner, Texas Dealmakers Team</p>
+                    <p class="text-sm text-gray-500 mt-1">Master negotiator and relationship builder.</p>
+                </div>
+                <div class="card p-4 text-center">
+                    <img src="./assets/images/michael-miller.png" alt="Michael Miller" class="rounded-full h-24 w-24 mx-auto mb-2 object-cover">
+                    <h4 class="font-bold">Michael Miller</h4>
+                    <p class="text-gray-600">Owner, DC Sales Eagles</p>
+                    <p class="text-sm text-gray-500 mt-1">Soaring above the competition with strategic sales.</p>
+                </div>
+                <div class="card p-4 text-center">
+                    <img src="./assets/images/patricia-wilson.png" alt="Patricia Wilson" class="rounded-full h-24 w-24 mx-auto mb-2 object-cover">
+                    <h4 class="font-bold">Patricia Wilson</h4>
+                    <p class="text-gray-600">Owner, Miami Revenue Runners</p>
+                    <p class="text-sm text-gray-500 mt-1">Fast-paced revenue generation in the Sunshine State.</p>
+                </div>
+            </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white p-4 mt-8">
+        <div class="container mx-auto text-center">
+            <div class="flex justify-center space-x-4 mb-4">
+                <a href="#" class="text-gray-400 hover:text-white"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg></a>
+                <a href="#" class="text-gray-400 hover:text-white"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg></a>
+                <a href="#" class="text-gray-400 hover:text-white"><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+            </div>
+            <p>&copy; 2025 NSBLPA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="assets/script/scripts.js"></script>
+</body>
+</html>
