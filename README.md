@@ -20,7 +20,7 @@ This prototype is built with static HTML, CSS (Tailwind CSS via CDN), and minima
 
     For a more robust local development experience (especially if you encounter issues with relative paths or certain browser security features), you can use a simple local web server. If you have Python installed, you can run:
     ```bash
-    python -m http.server 8000
+    python3 -m http.server 8000
     ```
     Then, open your browser and go to `http://localhost:8000`.
 
